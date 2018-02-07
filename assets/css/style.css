@@ -2,21 +2,14 @@
 
 body {
   font-family: 'Noto Sans', sans-serif;
-
-  /* Typography */
   font-size: 18px;
   line-height: 34px;
-  color: #777;
-
-  /* Visual */
+  color: #333A56;
   background: url("../images/background.jpg");
 }
 
 * {
-  /* Box-model */
   box-sizing: border-box;
-
-  /* Positioning */
   margin: 0;
 }
 
@@ -25,25 +18,16 @@ body {
   height: 100%;
 }
 
-/* general */
-
 .wrapper {
   height: auto !important;
   height: 100%;
-
-  /* Box-model */
   min-height: 100%;
-
-  /* Positioning */
   margin: 0 auto -100px;
 }
 
 .container {
-  /* Box-model */
   width: 100%;
   max-width: 960px;
-
-  /* Positioning */
   margin: 0 auto;
   clear: both;
 }
@@ -62,22 +46,16 @@ p:last-child {
 h1,
 h2,
 h3 {
-  /* Typography */
   font-family: 'Noto Sans', sans-serif;
   font-weight: 700;
-  color: #FF533D;
+  color: #333A56;
 }
 
 h1 {
-  /* Box-model */
   padding-bottom: 20px;
-
-  /* Typography */
   font-size: 30px;
   line-height: 49px;
-
-  /* Visual */
-  border-bottom: 3px solid #ddd;
+  border-bottom: 2px solid #52658F;
 }
 
 h2,
@@ -86,155 +64,98 @@ h3 {
 }
 
 /* header */
-
 #masthead {
   position: fixed;
   z-index: 99;
-
-  /* Box-model */
   width: 100%;
-
-  /* Positioning */
   margin: 0 0 30px;
   overflow: auto;
-
-  /* Typography */
   color: #0F1626;
-  background: #0F1626;
-
-  /* Visual */
-  border-bottom: 2px solid #ccc;
+  background: #333A56;
+  border-bottom: 2px solid #52658F;;
 }
 
 #logo {
   float: left;
-
-  /* Box-model */
   width: 250px;
   height: 90px;
-
-  /* Typography */
   font-family: 'Noto Sans', sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
-  color: #F5F5F5;
+  color: #F7F5E6;
   text-align: center;
   text-decoration: none;
-
-  /* Visual */
-  background: #FF533D;
+  background: #52658F;
 }
 
 nav {
-  /* Box-model */
   float: right;
-
-  /* Positioning */
   margin-top: 25px;
 }
 
 nav li {
   display: inline-block;
-
-  /* Box-model */
   padding-left: 15px;
-
-  /* Positioning */
   margin-left: 15px;
-
-  /* Typography */
   line-height: 18px;
-
-  /* Visual */
-  border-left: 1px solid #efefef;
+  border-left: 1px solid #F7F5E6;
 }
 
 nav a {
-  /* Typography */
-  color: #AB987A;
+  color: #F7F5E6;
   text-decoration: none;
 }
 
 nav a:hover {
-  color: #666;
+  color: #F7F5E6;
 }
 
 nav li:first-child {
-  /* Box-model */
   padding-left: 0;
-
-  /* Positioning */
   margin-left: 0;
-
-  /* Visual */
   border-left: 0 none;
 }
 
 /* footer */
-
 footer,
 .push {
   height: 100px;
 }
 
 footer {
-  /* Box-model */
   padding: 30px 0;
-
-  /* Positioning */
   clear: both;
   font-size: 12px;
-
-  /* Typography */
-  color: #ccc;
+  color: #F7F5E6;
   text-align: center;
-
-  /* Visual */
-  background: #0F1626;
-  border-top: 8px solid #AB987A;
+  background: #333A56;
+  border-top: 8px solid #52658F;
 }
 
 /* sidebar */
-
 .sidebar {
   float: right;
   width: 100%;
   max-width: 270px;
-
-  /* Box-model */
   padding: 30px;
-
-  /* Positioning */
   margin-bottom: 20px;
-  background: #F5F5F5;
-
-  /* Visual */
-  border: 1px solid #ddd;
+  background: #F7F5E6;
+  border: 2px solid #52658F;
 }
 
 h3,
 .sidebar h2 {
-  /* Box-model */
   padding-bottom: 20px;
-
-  /* Positioning */
   margin-bottom: 15px;
-
-  /* Typography */
   line-height: 22px;
-
-  /* Visual */
-  border-bottom: 2px solid #eee;
+  border-bottom: 2px solid #52658F;
 }
 
 .sidebar li {
-  /* Box-model */
   float: left;
   width: 62px;
   height: 62px;
-
-  /* Positioning */
   margin-top: 8px;
   margin-right: 10px;
 }
@@ -248,7 +169,6 @@ h3,
 }
 
 /* main */
-
 main {
   padding-top: 130px;
 }
@@ -257,27 +177,18 @@ main {
   float: left;
   width: 100%;
   max-width: 650px;
-
-  /* Box-model */
   padding: 30px;
-
-  /* Positioning */
   margin: 0 0 40px;
-  background: #F5F5F5;
-
-  /* Visual */
-  border: 1px solid #ddd;
+  background: #F7F5E6;
+  border: 2px solid #52658F;
 }
 
 /* portfolio page */
-
 .work {
-  /* Positioning */
   position: relative;
   float: left;
-
-  /* Box-model */
-  width: 274px;
+  width: 250px;
+  height: 125px;
   margin: 20px 0 25px;
   overflow: auto;
 }
@@ -287,52 +198,34 @@ main {
 }
 
 .work img {
-  /* Box-model */
   width: 100%;
-
-  /* Visual */
   border: 0 none;
-
-  /* Misc */
   opacity: 0.8;
 }
 
 .work h3 {
-  /* Positioning */
   position: absolute;
   bottom: 20px;
   width: 100%;
-
-  /* Box-model */
-  padding: 10px;
+  padding: 5px;
   margin-bottom: 0;
   font-weight: 300;
   line-height: 22px;
-
-  /* Typography */
-
-  color: #fff;
+  color: #F7F5E6;
   text-align: center;
-  background: #FF533D;
-
-  /* Visual */
+  background: #52658F;
   border-bottom: 0;
 }
 
 .auth-image {
   float: left;
-
-  /* Box-model */
   width: 200px;
   height: auto;
   margin-top: 10px;
-
-  /* Positioning */
   margin-right: 25px;
 }
 
 /* contact page */
-
 #contact-form ul {
   margin-bottom: 20px;
 }
@@ -345,7 +238,6 @@ label,
 input[type=text],
 input[type=email],
 textarea {
-  /* Box-model */
   display: block;
   width: 100%;
 }
@@ -353,14 +245,9 @@ textarea {
 input[type=text],
 input[type=email],
 textarea {
-  /* Box-model */
   height: 35px;
   padding: 0 10px;
-
-  /* Typography */
   font-size: 14px;
-
-  /* Visual */
   border: 1px solid #ddd;
 }
 
@@ -369,26 +256,17 @@ textarea {
 }
 
 input[type=submit] {
-  /* Box-model */
   padding: 10px 30px;
   font-size: 18px;
-
-  /* Typography */
   color: #F5F5F5;
-
-  /* Misc */
   cursor: pointer;
-  background: #FF533D;
-
-  /* Visual */
+  background: #333A56;
   border: 0 none;
 }
 
 @media only screen and (max-width: 980px) {
   .container {
     max-width: 768px;
-
-    /* Box-model */
     padding: 0 20px;
   }
 
@@ -421,10 +299,7 @@ input[type=submit] {
   }
 
   .work {
-    /* Box-model */
     width: 47%;
-
-    /* Positioning */
     margin-bottom: 10px;
   }
 
@@ -447,7 +322,6 @@ input[type=submit] {
 
 @media only screen and (max-width: 640px) {
   #masthead {
-    /* Positioning */
     position: static;
     margin-bottom: 20px;
   }
@@ -467,22 +341,14 @@ input[type=submit] {
   }
 
   nav {
-    /* Box-model */
     width: 100%;
-
-    /* Positioning */
     margin: 15px 0;
-
-    /* Typography */
     text-align: center;
   }
 
   nav a {
-    /* Box-model */
     width: 30%;
     padding-left: 0;
-
-    /* Positioning */
     margin-left: 0;
   }
 }
