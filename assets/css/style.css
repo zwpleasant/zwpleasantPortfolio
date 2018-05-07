@@ -352,3 +352,8 @@ input[type=submit] {
     margin-left: 0;
   }
 }
+
+#mapid {
+  height: 500px;
+  width: 580px; 
+}
