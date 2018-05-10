@@ -9,6 +9,7 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
 }).addTo(mymap);
 
 L.geoJSON(statesData, {
+  onEachFeature: onEachFeature,
   style: function(feature) {
     switch (feature.properties.ran) {
       case 0: return {
